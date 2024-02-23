@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background: url('servicios/ser-1.jpeg') center center fixed; 
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.titulo {
+    color: #FFFFFF;
+}
+
+table.lila-claro {
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #d4bfff;
+    color: #6210a3;
+    opacity: 80%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f28c;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.footer{
+    background-color: #d099ff;
+    padding: 3% 0;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.btn-2 {
+    padding: 15px 25px;
+    border: 1px solid #2EA1FF;
+    border-radius: 25px;
+    font-size: 15px;
+    margin: 50px;
+}
+

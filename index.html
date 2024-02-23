@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El portafolio de Carol</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!--Parte de la cabecera-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <div class="container">
+            <a href="#" class="navbar-brand"> <span class="text-primary">El Portafolio</span> de Carol </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarS"
+                aria-controls="nabarS" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#carouselE" class="nav-link"> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"> Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link"> Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link"> Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#clientes" class="nav-link"> Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link"> Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!--Carrusel de imágenes y descripciones para las portadas-->
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-current="true"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-current="true"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="img/carousel1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Mi Blog de Diseño</h5>
+                    <p>¿Eres un estudiante de diseño gráfico surfeando en el mar de la creatividad? En este artículo, te
+                        sumergirás en mi travesía como estudiante y descubrirás estrategias probadas para enfrentar los
+                        desafíos del diseño.</p>
+                    <a href="Blog1.html" class="btn btn-primary mt-3">Más Información</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel2.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Mi Blog de Música</h5>
+                    <p>¡Bienvenido a un viaje sonoro sin límites! Sumérgete en nuestro blog de música, donde las
+                        melodías cuentan historias y las notas pintan paisajes emocionales.</p>
+                    <a href="Blog2.html" class="btn btn-primary mt-3">Más Información</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel3.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>¡Hola!</h5>
+                    <p>¡Bienvenido al santuario de la creatividad! En nuestro blog de arte, cada trazo cuenta una historia y cada color evoca emociones.</p>
+                    <a href="Blog3.html" class="btn btn-primary mt-3">Más Información</a>
+                </div>
+            </div>
+
+        </div>
+        <!--Para que aparezcan las flechitas de los costados de la portada-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+    <!--Sección "acerca de mi"-->
+    <section id="about" class="about section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="img/About.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-white"> <br>
+                        <h2>¡BIENVENIDOS!</h2>
+                        <p>Soy Carol, diseñadora apasionada con un enfoque único en la creación visual. Mi portafolio es
+                            un compendio de historias visuales donde cada diseño cuenta una narrativa única. Desde el
+                            arte del branding hasta ilustraciones vibrantes, cada proyecto es un reflejo de mi
+                            compromiso con la excelencia estética y la innovación. Adéntrate en mi universo creativo y
+                            descubre cómo la pasión se entrelaza con la técnica para dar vida a ideas inspiradoras y
+                            cautivadoras.</p>
+                        <a href="about.html" class="btn btn-primary"> Acerca de mi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Sección donde muestro mis servicios como diseñadora-->
+    <section id="services" class="services section-padding">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Servicios</h2>
+                        <p>¡Ofrezco una gama diversa de servicios para dar vida a tus ideas!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-phone"></i> <br> 
+                            <h3 class="card-title">SOCIAL MEDIA</h3> <br>
+                            <p>Convierte tu presencia en redes sociales en una poderosa herramienta de marca con mi
+                                servicio de Social Media. Desde la estrategia hasta la ejecución, trabajaremos juntos
+                                para crear contenido visual cautivador y mensajes impactantes que aumenten la
+                                participación de tu audiencia y fortalezcan la identidad de tu marca en plataformas
+                                clave. Aumentemos juntos tu presencia en línea y conectemos con tu audiencia de una
+                                manera auténtica y creativa</p> <br>
+                                <a href="servicio1.html" class="btn bg-primary text-white">¡Quiero saber más!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-book"></i> <br>
+                            <h3 class="card-title">DISEÑO IMPRESO</h3> <br>
+                            <p>El diseño impreso tiene un encanto atemporal y, a través de mi servicio, puedo dar vida a
+                                tus ideas en papel. Desde folletos hasta revistas, desde tarjetas de presentación hasta
+                                carteles, cada proyecto de diseño impreso es una oportunidad para fusionar creatividad y
+                                funcionalidad. Cada pieza está cuidadosamente diseñada para transmitir tu mensaje con
+                                claridad y estilo, dejando una impresión duradera en tus clientes.</p> <br> <br>
+                            <a href="servicio2.html" class="btn bg-primary text-white">¡Quiero saber más!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-heart"></i> <br>
+                            <h3 class="card-title">IDENTIDAD DE MARCA</h3> <br>
+                            <p>Tu identidad de marca es la columna vertebral de tu presencia empresarial. Con mi
+                                servicio de Identidad de Marca, trabajaremos en el desarrollo de una identidad visual
+                                cohesiva y memorable para tu negocio. Desde la creación de logotipos distintivos hasta
+                                la definición de paletas de colores y tipografías, cada elemento se diseña
+                                estratégicamente para reflejar los valores y la personalidad de tu marca, estableciendo
+                                una base sólida para tu éxito a largo plazo.</p> <br>
+                            <a href="servicio3.html" class="btn bg-primary text-white">¡Quiero saber más!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Sección de mi Portafolio donde muestro mis trabajos estudiantiles-->
+    <section id="portfolio" class="portfolio section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Portafolio</h2>
+                        <p>Transformando ideas en imágenes y trazando historias con cada trazo, mi portafolio es un lienzo de posibilidades ilimitadas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="img/portfolio1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Diseños</h3>
+                            <p class="lead">
+                                Explora mi mundo de diseño, donde las ideas cobran vida en formas creativas y colores
+                                vibrantes. Desde logotipos innovadores hasta diseños de marca impactantes, cada pieza
+                                cuenta una historia única.
+                            </p> <br>
+                            <a href="portfolio1.html" class="btn bg-primary text-white">Mas Información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="img/portfolio2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Maquetas</h3>
+                            <p class="lead">
+                                Sumérgete en el proceso creativo a través de mis maquetas. Aquí, las ideas toman forma,
+                                los conceptos se materializan y los proyectos se vuelven tangibles. Descubre el arte de
+                                visualizar ideas en estructuras tridimensionales.
+                            </p> <br>
+                            <a href="portfolio2.html" class="btn bg-primary text-white">Mas Información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-3">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="img/portfolio3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Dibujos</h3>
+                            <p class="lead">
+                                En esta sección, te invito a explorar mi mundo a través de trazos y líneas. Mis dibujos
+                                capturan momentos, expresan emociones y cuentan historias desde una perspectiva
+                                artística y personal.
+                            </p> <br> <br>
+                            <a href="portfolio3.html" class="btn bg-primary text-white">Mas Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Sección de Clientes-->
+    <section id="clientes" class="team section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>¡Clientes Felices!</h2>
+                        <p>Detrás de cada proyecto, hay una historia compartida con clientes visionarios. Sus sueños se
+                            convierten en mi inspiración para cada diseño.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/cliente1.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">Alejandro Rodríguez</h3>
+                            <p class="card-text">¡Impresionante trabajo! Me encanta cómo tus diseños combinan
+                                creatividad y profesionalismo. ¡Definitivamente te contactaré para un proyecto pronto!
+                            </p> <br>
+                            <p class="points">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/cliente2.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">Sofía Morales</h3>
+                            <p class="card-text">Tus dibujos son simplemente cautivadores. Cada trazo cuenta una
+                                historia y transmite emociones. ¡Felicidades por tu talento!</p> <br> <br>
+                            <p class="points">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/cliente3.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">Martín Gómez</h3>
+                            <p class="card-text">¡Increíble atención al detalle en cada diseño! Nos quedamos asombrados
+                                con la calidad de tu trabajo. ¡Estamos ansiosos por colaborar contigo en el futuro!</p> <br>
+                            <p class="points">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/cliente4.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">Sophie Bermudez</h3>
+                            <p class="card-text">"La creatividad de Carol superó nuestras expectativas. Su enfoque meticuloso nos brindó diseños que realmente representan nuestra identidad. ¡Una profesional del diseño altamente recomendada!</p>
+                            <p class="points">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Sección para que me contacten-->
+    <section id="contacto" class="contact section-padding">
+
+        <div class="container mt-5 mb-5">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Contáctame</h2>
+                        <p>
+                            Estoy emocionada por colaborar en tu próximo proyecto.<br> Ponte en contacto conmigo para dar vida a tus ideas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row m-0">
+                <div class="col-md-12 p-0 pt-4 pb-4">
+                    <form action="#" class="bg-dark p-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Correo">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block mt-3">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">El Portafolio de Carol</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

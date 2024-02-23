@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;300;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #161815;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.logo {
+    color: #49bada;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 50px 0 0 0;
+}
+
+.header-content {
+    display: flex;
+    flex: 1;
+}
+
+.header-txt {
+    flex-basis: 50%;
+}
+
+.header-txt span {
+    font-size: 30px;
+    font-weight: 600;
+    color: #868b9e;
+}
+
+.header-txt h1 {
+    font-size: 100px;
+    color: #ffffff;
+    line-height: 1;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 10px 0 25px 0;
+}
+
+.about {
+    padding: 0 0 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+flex-basis: 40%;
+}
+
+img{
+    width: 550px;
+    border-radius: 15px;
+    border: 10px solid #49bada;
+} 
+
+.about-txt {
+    flex-basis: 60%;
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#ffffff;
+    margin: 8%;
+    text-align: center;
+}
+
+.about-txt p {
+    color: #b3b3b3;
+    font-size: 17px;
+    margin: 8%;
+    text-align: center;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 35px;
+    background: linear-gradient(90deg, rgba(78,159,215,1)0%, rgba(74,42,193,1)100%);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+@media (max-width:991px) {
+
+    .header {
+        min-height: 0vh;
+        padding: 100px 30px 30px 30px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-txt h1 {
+        font-size: 70px;
+    }
+
+    .about {
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img {
+        text-align: center;
+    }
+
+    .img {
+        width: 250px;
+    }
+}
